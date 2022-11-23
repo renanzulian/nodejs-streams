@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-streams",
+  "version": "1.0.0",
+  "description": "How can you submit a file larger than your application or language supports? NodeJS, for example, has a limited memory to work and when you want to put a file larger than this memory you gonna get a memory exception.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client": "node src/client.js",
+    "server": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "form-data": "^4.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
